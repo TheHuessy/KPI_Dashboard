@@ -1,0 +1,139 @@
+h1 {
+  font-family: "Monterrat", sans-serif;
+  font-weight: bold;
+  font-size: 75px;
+  letter-spacing: -1px;
+      }
+
+h2 {
+  font-family: "Monterrat", sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 47px;
+  letter-spacing: -1px;
+      }
+
+h3 {
+  font-family: "Lora", sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 37px;
+      }
+
+h4 {
+  font-family: "Monterrat", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+h5 {
+  font-family: "Monterrat", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 22px;
+      }
+
+h6 {
+  font-family: "Monterrat", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+      }
+
+/* body */
+        .content-wrapper, .right-side {
+                                background-color: #F2F2F2;
+
+                                }
+
+/* logo */
+        .skin-blue .main-header .logo {
+                              background-color: #091F2F;
+                                font-family: "Monterrat-Bold", sans-serif;
+  								font-weight: bold;
+                              }
+
+        /* logo when hovered */
+        .skin-blue .main-header .logo:hover {
+                              background-color: #091F2F;
+                                font-family: "Monterrat-Bold", sans-serif;
+                                font-weight: italic;
+                              }
+
+        /* navbar (rest of the header) */
+        .skin-blue .main-header .navbar {
+                              background-color: #091F2F;
+                              font-family: "Lora", serif;
+                              }        
+
+        /* main sidebar */
+        .skin-blue .main-sidebar {
+                              background-color: #091F2F;
+                                font-family: "Lora", serif;
+  								
+                              }
+
+        /* active selected tab in the sidebarmenu */
+        .skin-blue .main-sidebar .sidebar .sidebar-menu .active a{
+                              background-color: #091F2F;
+                                font-family: "Lora", serif;
+  								font-weight: italic;
+                              }
+
+        /* other links in the sidebarmenu */
+        .skin-blue .main-sidebar .sidebar .sidebar-menu a{
+                              background-color: #091F2F;
+                              color: #F2F2F2;
+                              }
+
+        /* other links in the sidebarmenu when hovered */
+         .skin-blue .main-sidebar .sidebar .sidebar-menu a:hover{
+                              background-color: #45789C;
+                              }
+        /* toggle button when hovered  */                    
+         .skin-blue .main-header .navbar .sidebar-toggle:hover{
+                              background-color: #45789C;
+                              }
+.box.box-solid.box-primary>.box-header {
+  color:#f2f2f2;
+  background:#FB4D42;
+                    }
+.box.box-solid.box-primary {
+  background-color:##f2f2f2;
+                    }
+
+/*Getting the infoboxes to not suck as hard color-wise */                    
+.info-box.bg-blue>.info-box-content {
+  background-color: #091F2F;
+  color: #F2F2F2;
+                    }
+.info-box.bg-blue>.info-box-icon {
+  background-color: #091F2F;
+  color: #F2F2F2;
+                    }
+.info-box.bg-blue {
+ background-color: #091F2F!important; 
+}                    
+
+
+.box.box-solid.box-primary{
+border-bottom-color:#f2f2f2;
+border-left-color:#f2f2f2;
+border-right-color:#f2f2f2;
+border-top-color:#f2f2f2;
+}                              
+
+
+.box-header {
+    display: block;
+    padding: 10px;
+    position: relative;
+    background-color: #45789C;
+    color: #f2f2f2;
+}
+.fa, .fas {
+    color: #f2f2f2;
+}
+
