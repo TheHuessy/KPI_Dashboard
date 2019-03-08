@@ -1,0 +1,22 @@
+KPI Dashbaord Updating Instructions:
+
+-In this folder, run 'Table Pulls[DONTPUSH].R
+
+--This file does all the table pulls and saves the csvs locally in the Dashboard Demo Folder under Side Projects. This is where the app
+--is expecting to find the final tables that it will use to generate the tables and charts. As of Feb 2019, the sources are beginning
+--to breakdown. This is proably because of the Civis migration, but since this project isn't probably going to see the light of day,
+--this isn't a huge problem. Someone will have to go through and retool the queries to point at the civis table equivelent once they 
+--are all up.
+
+-Push everything EXCEPT the Table pulls file
+
+--There are hardcoded passwords in that file. Don't put it online. Once the civis migration is complete, you won't need to do this 
+--anymore and can be free to push the table pulls. 
+
+--There might also be no need for a table pull file as we might have pecific views made for this project.
+
+-Update/re-upload app to shinyapps.io
+
+-Save
+
+-Have a coffee

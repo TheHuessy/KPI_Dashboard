@@ -1537,7 +1537,7 @@ output$BPD.IB.9 <- renderInfoBox({
     BPS.1.GY <- round(((BPSt[1,3]/BPSt[1,6])*100)-100, digits = 1)
     BPS.1.GYT <- round(((BPSt[1,3]/BPSt[1,7])*100)-100, digits = 1)
     #The only way to get all of these values to show up in multiple lines per bos is to wrap things in HTML() and specify br() for each line break
-    infoBox(value = shiny::HTML(paste(paste(abs(BPS.1.GT), if(BPSt[1,3]>BPSt[1,2]){"% Above Target"} else {"% Below Target"}),
+    infoBox(value = shiny::HTML(paste(paste(abs(BPS.1.GT), if(BPSt[1,3]>BPSt[1,2]){"% Above Target"} else if(BPSt[1,3]<BPSt[1,2]){"% Below Target"} else if(BPSt[1,3]==BPSt[1,2]){"On Target!"} else {"No Data Currently Available!"}),
                                       br(),
                                       paste(abs(BPS.1.GY), if(BPSt[1,3] >BPSt[1,6]){paste("% Above", colnames(BPSt[6]))} else {paste("% Below", colnames(BPSt[6]))}),
                                       br(),
@@ -1554,7 +1554,7 @@ output$BPD.IB.9 <- renderInfoBox({
     #BPS.2.GY <- round(((BPSt[1,6]/BPSt[2,6])*100)-100, digits = 1)
     BPS.2.GYT <- round(((BPSt[1,6]/BPSt[1,7])*100)-100, digits = 1)
     #The only way to get all of these values to show up in multiple lines per bos is to wrap things in HTML() and specify br() for each line break
-    infoBox(value = shiny::HTML(paste(paste(abs(BPS.2.GT), if(BPSt[1,6]>BPSt[1,2]){"% Above Target"} else {"% Below Target"}),
+    infoBox(value = shiny::HTML(paste(paste(abs(BPS.2.GT), if(BPSt[1,6]>BPSt[1,2]){"% Above Target"} else if(BPSt[1,6]<BPSt[1,2]){"% Below Target"} else if(BPSt[1,6]==BPSt[1,2]){"On Target!"} else {"No Data Currently Available!"}),
                                       br(),
                                       #paste(abs(BPS.2.GY), if(BPSt[1,6] >BPSt[1,6]){"% Above This Month Last Year"} else {"% Below This Month Last Year"}),
                                       #br(),

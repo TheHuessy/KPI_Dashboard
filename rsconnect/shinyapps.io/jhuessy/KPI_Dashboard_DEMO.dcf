@@ -1,0 +1,12 @@
+name: KPI_Dashboard_DEMO
+title: KPI_Dashboard_DEMO
+username:
+account: jhuessy
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 525465
+bundleId: 1743013
+url: https://jhuessy.shinyapps.io/KPI_Dashboard_DEMO/
+when: 1544029174.29837
+asMultiple: FALSE
+asStatic: FALSE
